@@ -1,27 +1,30 @@
 #title{
     height:10%;
     width:100%;
-    color:blueviolet;
+    color:white;
     text-align:center;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
+    font-family: 'sans-serif';
+
 }
-body{
+html, body{
     padding: 0%;
     height:100%;
     width: 100%;
     margin: 0px;
+    background-color: #8c8c8c;
+}
+
+#tekst{
+    color: white;
 }
 
 footer{
     width: 100%;
     height: 20%;
-    position: relative;
     margin: 0%;
 }
 #photo{
-    position: relative;
-    height: 90%;
+    height: 100%;
     width: 100%;
 }
 
@@ -35,8 +38,6 @@ footer{
 #link{
     height: 20%;
     width: 25%;
-
-
 }
 
 #link:hover{
@@ -45,7 +46,6 @@ footer{
 
 
 .overlay {
-    position: absolute;
     height: 100%;
     width: 100%;
     opacity: 0.3;
@@ -56,13 +56,10 @@ footer{
     left: 50;
     right: 50;
 }
-div{
-    margin: 0%;
-}
+
 .container {
-    position: relative;
     width: 100%;
-    height: 80%;
+    height: 90%;
 }
 
 
@@ -71,7 +68,6 @@ div{
 }
 
 #icon {
-    position: absolute;
     height: 100px;
     width: 100px;
     cursor: pointer;
@@ -81,17 +77,6 @@ div{
 }
 
 #mapDiv{
-    position: absolute;
     height:80%;
     width:100%;
-    
-  
-}
-
-#tekst{
-    position: relative;
-    height: 40%;
-    width: 100%;
-    padding-top: 40%;
-    margin: 0%;
 }
