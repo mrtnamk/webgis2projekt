@@ -1,9 +1,11 @@
-#title{
+h1{
     height:10%;
     width:100%;
     color:white;
     text-align:center;
     font-family: 'sans-serif';
+    padding:0%;
+    margin: 0%;
 
 }
 html, body{
@@ -11,10 +13,12 @@ html, body{
     height:100%;
     width: 100%;
     margin: 0px;
-    background-color: #8c8c8c;
+    background-color: #676767;
 }
 
 #tekst{
+    height: 40%;
+    width: 100%;
     color: white;
 }
 

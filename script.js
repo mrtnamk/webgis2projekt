@@ -94,11 +94,16 @@ require([
   
     let measurement = new Measurement({
       view: view,
-      activeTool: "distance"
+      activeTool:"distance"
     });
 
-  
-    view.ui.add(measurement, "top-left");
+
+    let expM = new Expand({
+      view: view,
+      content:measurement
+    });
+
+    view.ui.add(expM, "top-left");
   
     function switchTool() {
       let tool = measurement.activeTool === "distance" ? "area" : "distance";
