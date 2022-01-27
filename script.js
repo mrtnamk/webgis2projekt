@@ -97,7 +97,6 @@ require([
       activeTool:"distance"
     });
 
-
     let expM = new Expand({
       view: view,
       content:measurement
